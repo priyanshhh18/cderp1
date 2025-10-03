@@ -74,7 +74,7 @@ const CareerHeroSlide = ({ onOpenForm }) => {
             {/* Description */}
             <p className="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed max-w-full sm:max-w-lg justify">
               For more than 10 years, we&apos;ve been passionate about providing engaging, 
-              instructor-led training that helps professionals around the world grow and succeed.
+              instructor - led training that helps professionals around the world grow and succeed.
             </p>
 
             {/* Trust Badge */}
