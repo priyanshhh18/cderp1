@@ -33,7 +33,7 @@ const BranchesMapView = dynamic(() => import("./BranchesMapView"), {
           </div>
         </div>
         <p className="text-center mt-3 text-white font-medium">
-          Loading Map...
+          Loading Map..
         </p>
       </div>
     </div>
