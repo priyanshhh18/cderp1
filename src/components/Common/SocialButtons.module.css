@@ -1,0 +1,99 @@
+/* components/SocialButtons.module.css */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up,
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #2d2d2d;
+    box-shadow: 4px 4px 0px #2d2d2d;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .card1 {
+    border-radius: 60px 5px 5px 5px;
+    padding-top: 8px;
+    padding-left: 8px;
+  }
+  
+  .card2 {
+    border-radius: 5px 60px 5px 5px;
+    padding-top: 8px;
+    padding-right: 8px;
+  }
+  
+  .card3 {
+    border-radius: 5px 5px 5px 60px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+  }
+  
+  .card4 {
+    border-radius: 5px 5px 60px 5px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+  }
+  
+  .whatsapp,
+  .call,
+  .chatbot,
+  .twitter {
+    transition: fill 0.2s ease-in-out;
+  }
+  
+  .whatsapp {
+    fill: #25d366;
+  }
+  
+  .chatbot {
+    fill: #6c5ce7;
+  }
+  
+  .call {
+    fill: #ff6b35;
+  }
+  
+  .twitter {
+    fill: #1da1f2;
+  }
+  
+  .card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 8px 8px 0px #2d2d2d;
+  }
+  
+  .card1:hover {
+    background-color: #25d366;
+  }
+  
+  .card2:hover {
+    background-color: #6c5ce7;
+  }
+  
+  .card3:hover {
+    background-color: #ff6b35;
+  }
+  
+  .card4:hover {
+    background-color: #1da1f2;
+  }
+  
+  .card:hover svg {
+    fill: white;
+  }
