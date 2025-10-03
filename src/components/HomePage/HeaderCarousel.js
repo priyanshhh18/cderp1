@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useCallback } from 'react';
-import CareerHeroSlide from './Headercarousel1';
+import CareerHeroSlide from './HeaderCarousel1';
 import HeaderCarousel3 from "./HeaderCarousel3";
 import QuizComponent from "./HeaderCarousel4";
  
