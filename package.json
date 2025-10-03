@@ -28,6 +28,7 @@
     "canvas-confetti": "^1.9.3",
     "cities.json": "^1.1.50",
     "clsx": "^2.1.1",
+    "critters": "^0.0.23",
     "file-saver": "^2.0.5",
     "framer-motion": "^12.4.5",
     "jsdom": "^26.1.0",
